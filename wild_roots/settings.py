@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG") == "True"
 
 ALLOWED_HOSTS = [
-    'wildroots.herokuapp.com', # update with your Heroku app name
+    'wild-roots-2a4452b4bf86.herokuapp.com/', # update with your Heroku app name
     '.herokuapp.com',
     '127.0.0.1',
 ]
