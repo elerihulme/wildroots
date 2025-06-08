@@ -1,1 +1,1 @@
-web: gunicorn wild_roots.wsgi
+web: gunicorn wild_roots.wsgi:application
